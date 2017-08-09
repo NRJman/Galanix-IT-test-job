@@ -171,6 +171,23 @@ body{
 	    background-color: #00cc00;
 	}
 
+	@media (max-width: 320px){
+		.modal-popup{
+			img{
+				position: relative;
+				left: 6px;
+			}
+		}
+	}
+
+	@media (min-width: 321px) and (max-width: 375px){
+		.modal-popup{
+			img{
+				position: relative;
+				left: 8px;
+			}
+		}
+	}
 
 	@media (min-width: 376px) and (max-width: 425px){
 		.picture-wrapper{
@@ -178,6 +195,12 @@ body{
 			height: 255px;
 			img{
 				height: 255px;
+			}
+		}
+		.modal-popup{
+			img{
+				position: relative;
+				left: 8px;
 			}
 		}
 	}
@@ -190,6 +213,12 @@ body{
 				height: 275px;
 			}
 		}
+		.modal-popup{
+			img{
+				position: relative;
+				left: 10px;
+			}
+		}
 	}
 
 	@media (min-width: 576px) and (max-width: 767px){
@@ -198,6 +227,12 @@ body{
 			height: 350px;
 			img{
 				height: 350px;
+			}
+		}
+		.modal-popup{
+			img{
+				position: relative;
+				left: 12px;
 			}
 		}
 	}
@@ -210,6 +245,12 @@ body{
 				height: 275px;
 			}
 		}
+		.modal-popup{
+			img{
+				position: relative;
+				left: 12px;
+			}
+		}
 	}
 
 	@media (min-width: 992px) and (max-width: 1199px){
@@ -218,6 +259,12 @@ body{
 			height: 170px;
 			img{
 				height: 170px;
+			}
+		}
+		.modal-popup{
+			img{
+				position: relative;
+				left: 12px;
 			}
 		}
 	}
@@ -230,6 +277,12 @@ body{
 				height: 205px;
 			}
 		}
+		.modal-popup{
+			img{
+				position: relative;
+				left: 12px;
+			}
+		}
 	}
 
 	@media (min-width: 1441px){
@@ -238,6 +291,11 @@ body{
 			height: 240px;
 			img{
 				height: 240px;
+			}
+		}.modal-popup{
+			img{
+				position: relative;
+				left: 14px;
 			}
 		}
 	}

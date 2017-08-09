@@ -141,47 +141,76 @@ body {
   body .btn3d.btn-success:active, body .btn3d.btn-success.active {
     box-shadow: 0 0 0 1px #30cd00 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
     background-color: #00cc00; }
+  @media (max-width: 320px) {
+    body .modal-popup img {
+      position: relative;
+      left: 6px; } }
+  @media (min-width: 321px) and (max-width: 375px) {
+    body .modal-popup img {
+      position: relative;
+      left: 8px; } }
   @media (min-width: 376px) and (max-width: 425px) {
     body .picture-wrapper {
       width: 255px;
       height: 255px; }
       body .picture-wrapper img {
-        height: 255px; } }
+        height: 255px; }
+    body .modal-popup img {
+      position: relative;
+      left: 8px; } }
   @media (min-width: 426px) and (max-width: 575px) {
     body .picture-wrapper {
       width: 275px;
       height: 275px; }
       body .picture-wrapper img {
-        height: 275px; } }
+        height: 275px; }
+    body .modal-popup img {
+      position: relative;
+      left: 10px; } }
   @media (min-width: 576px) and (max-width: 767px) {
     body .picture-wrapper {
       width: 350px;
       height: 350px; }
       body .picture-wrapper img {
-        height: 350px; } }
+        height: 350px; }
+    body .modal-popup img {
+      position: relative;
+      left: 12px; } }
   @media (min-width: 768px) and (max-width: 991px) {
     body .picture-wrapper {
       width: 275px;
       height: 275px; }
       body .picture-wrapper img {
-        height: 275px; } }
+        height: 275px; }
+    body .modal-popup img {
+      position: relative;
+      left: 12px; } }
   @media (min-width: 992px) and (max-width: 1199px) {
     body .picture-wrapper {
       width: 170px;
       height: 170px; }
       body .picture-wrapper img {
-        height: 170px; } }
+        height: 170px; }
+    body .modal-popup img {
+      position: relative;
+      left: 12px; } }
   @media (min-width: 1200px) and (max-width: 1440px) {
     body .picture-wrapper {
       width: 205px;
       height: 205px; }
       body .picture-wrapper img {
-        height: 205px; } }
+        height: 205px; }
+    body .modal-popup img {
+      position: relative;
+      left: 12px; } }
   @media (min-width: 1441px) {
     body .picture-wrapper {
       width: 240px;
       height: 240px; }
       body .picture-wrapper img {
-        height: 240px; } }
+        height: 240px; }
+    body .modal-popup img {
+      position: relative;
+      left: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
