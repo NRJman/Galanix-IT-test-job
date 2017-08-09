@@ -1,15 +1,10 @@
 body {
-  background: #609d9f;
-  background: -webkit-linear-gradient(#586674, #99a6b2, #586674);
-  background: -o-linear-gradient(#586674, #99a6b2, #586674);
-  background: -moz-linear-gradient(#586674, #99a6b2, #586674);
-  background: linear-gradient(#586674, #99a6b2, #586674);
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  color: white; }
+  color: black; }
   body h1 {
-    color: white;
-    text-shadow: 2px 2px black; }
+    color: black;
+    text-shadow: 1px 1px grey; }
   body div.container {
     width: 80%; }
   body #information {
@@ -89,7 +84,7 @@ body {
       -o-transition: all 1s ease;
       transition: all 1s ease; }
     body .modal-popup span:hover {
-      color: #999999;
+      color: black;
       -webkit-transition: all 0.7s ease;
       -moz-transition: all 0.7s ease;
       -o-transition: all 0.7s ease;
