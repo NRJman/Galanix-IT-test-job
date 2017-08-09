@@ -8,7 +8,7 @@ This is a **1st task of Galanix IT test job**. I liked it and it was interesting
 
 ## Running
 
-Follow [the next link](https://cdn.rawgit.com/NRJman/Galanix-IT-test-job/d1f657ef/Task%201/index.html) to run this app.  
+Follow [the next link](https://cdn.rawgit.com/NRJman/Galanix-IT-test-job/edaf86d4/Task%201/index.html) to run this app.  
 
 ## License
 
